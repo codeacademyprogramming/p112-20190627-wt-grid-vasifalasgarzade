@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    background-color: #f3c435;
+    ;
+}
+
+header a {
+    color: white;
+    border: 1px solid #f3c435;
+    float: right;
+    margin: 0 2px
+}
+
+
+/* header */
+
+.bk-img {
+    background-image: url(../img/body.jpg);
+    padding: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.bk-img button {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.mrgn {
+    margin: 5px 0;
+}
+
+.bk-img h5 {
+    font-size: 20px;
+}
+
+.bk-img h1 {
+    font-size: 45px;
+}
+
+.text-center {
+    position: absolute;
+    margin: 0 45px 0 50;
+}
+
+
+/* section-2 */
+
+.bk-col-wh {
+    background-color: white;
+    width: 100%;
+    padding: 120px;
+}
+
+.bk-col-wh h3 {
+    font-size: 30px;
+}
+
+.mrgn-2 {
+    margin: 20px;
+}
+
+.bk-col-orange {
+    background-color: #f3c435;
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+/* section-3 */
+
+.text-size h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.col-4 {
+    width: 33.33%;
+    margin: 0 100px;
+}
+
+.rol-1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bc-img-1 {
+    background-image: url(../img/body.jpg);
+    padding: 100px;
+    background-size: cover;
+}
+
+.bk-col-1 {
+    background-color: #f3c435;
+    padding: 30px
+}
+
+.bc-img-1 button {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f3c435;
+    margin-right: 25px;
+}
+
+.rol-1 h5 {
+    font-size: 30px;
+}
+
+.rol-1 p {
+    color: white;
+}
+
+
+/* section */
+
+.col-3 {
+    width: 25%;
+}
+
+.rol-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bc-1 img {
+    width: 200px;
+    height: 200px;
+}
